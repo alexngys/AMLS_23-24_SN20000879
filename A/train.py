@@ -68,7 +68,7 @@ def train_evaluate_taskA():
           
     return new_images, new_labels
 
-  print("\n Loading images \n")
+  print("\nLoading images \n")
   new_train_images, new_train_labels = generateZoomImages(train_images, train_labels, [1.1, 1.2])
 
   #  21. Train NN with new training dataset
