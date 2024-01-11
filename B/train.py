@@ -1,7 +1,3 @@
-
-#  1. Import Packages
-
-
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
@@ -10,8 +6,7 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from scipy.ndimage import zoom
 # pydot and graphviz 
 
-
-#  2. Import datasets
+# !!!! Refer to train.ipynb for full experiment !!!!
 
 def train_evaluate_taskB():
   path_dataset = np.load('./Datasets/pathmnist.npz')
